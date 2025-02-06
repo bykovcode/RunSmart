@@ -1,0 +1,23 @@
+@use 'base/variables' as *;
+@use 'blocks/promo' as *;
+@use 'blocks/header' as *;
+@use 'blocks/buttons' as *;
+@use 'blocks/advantages' as *;
+@use 'blocks/consultation' as *;
+@use 'blocks/forms' as *;
+@use 'blocks/carousel' as *;
+@use 'blocks/catalog' as *;
+@use 'blocks/title' as *;
+@use 'blocks/feedback' as *;
+@use 'blocks/footer' as *;
+@use 'blocks/modal' as *;
+
+
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}

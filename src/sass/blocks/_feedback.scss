@@ -1,0 +1,53 @@
+.feedback {
+    padding-top: 50px;
+}
+
+.title__feedback {
+    margin-bottom: 60px;
+}
+
+.feedback__review {
+    display: flex;
+    // margin-top: 60px;
+
+    &_right {
+        width: 680px;
+        height: 169px;
+
+    }
+
+    img {
+        margin-bottom: 110px;
+        margin-right: 60px;
+        width: 169px;
+        height: 169px;
+    }
+
+
+    h2 {
+        color: rgb(13, 13, 13);
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 15px;
+        text-align: left;
+
+        span {
+            color: rgb(100, 100, 100);
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 22px;
+            text-align: left;
+            margin-top: 1px;
+        }
+    }
+
+    p {
+        color: rgb(13, 13, 13);
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 30px;
+        text-align: left;
+    }
+
+
+}
