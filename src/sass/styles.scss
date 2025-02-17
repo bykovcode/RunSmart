@@ -1,4 +1,5 @@
 @use 'base/variables' as *;
+@use 'base/animations' as *;
 @use 'blocks/promo' as *;
 @use 'blocks/header' as *;
 @use 'blocks/buttons' as *;
@@ -11,7 +12,7 @@
 @use 'blocks/feedback' as *;
 @use 'blocks/footer' as *;
 @use 'blocks/modal' as *;
-
+@use 'blocks/pageup' as *;
 
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
